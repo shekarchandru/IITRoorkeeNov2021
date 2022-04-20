@@ -1,0 +1,120 @@
+Session 01 - 21 Nov 2021
+-----------------------------------------------------
+Step 01 : Create Package Structure:
+com.greatlearning.main
+--DriverClass
+com.greatlearning.model
+--Customer
+com.greatlearning.service
+--Banking [deposit/withdraw/transfer]
+--OTPGenerator (for fund transfer)
+-------------------------
+getEmployeeData
+EmployeesDetails
+Step 02:
+ 
+Create 
+Customer Model Class
+DataMembers:
+
+bankAccountNo
+password;
+
+Constructor/Overloaded Constructor / Getters/Setters/toString()
+
+-----------------------------------
+Step 03
+DriverClass
+
+----------------------------------
+Step 04
+Banking
+
+---------------------------------
+Step 05
+OTPGenerator
+---------------------------------
+RealRandom
+ Random randnum;
+	public int generateNewOTP(int x)
+	{
+		
+
+		  	        randnum = new Random();
+		        randnum.setSeed(123456789);
+		        return randnum.nextInt(x);
+		   
+	}
+---------------------------
+
+static:
+Access Modifier
+HashMap
+JEE what is JEE?
+To See Source Code
+-------
+Servlets/JSPS/EJBS/RMI JEE
+
+---------
+Core Java
+---------
+[Java Core Java JEE
+[DeskTop ]
+Distributed 
+Web APplicat
+Mobile
+Web Services
+-------------------------
+private public protected 
+class Student
+{
+protected int studentId;
+}
+OLD traditionally
+Access Specifier [private public protected default]
+Access Modifier [static abstract transient final ....]
+-------
+Presently
+Modifiers
+[private public protected default] access modifiers
+[static transient final ....] non access modifiers
+
+private static int studentId;
+class Student
+{
+int score // instance variables
+static int graceMarks=5%;
+
+}
+Student ramesh = new Student(); ramesh.score = 85
+Student suresh = new Student(); suresh.score = 95
+------------------------------------------------
+String str1 = "Hyderabad"
+
+String str2 = "Hyderabad"
+
+
+Value type and reference type(Classes/Interface)
+int /char/float/double
+Student s1 = new Student()
+s1 = address
+int num1 = 2000;
+str1		str2
+[   ] 0x10     [   ] 0x20
+
+String str1
+str1 == str2
+str1.equals(str2)
+
+String str1 = new String("Hyderabad") // addr 0x20
+
+String str2 = new String("Hyderabad"); // addr 0x30
+str1 == str2 false
+str1.equals(str2) true
+
+
+
+
+
+
+
